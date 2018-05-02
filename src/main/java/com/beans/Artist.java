@@ -2,6 +2,7 @@ package com.beans;
 
 import java.util.ArrayList;
 
+// An individual or a group who creates music
 public class Artist {
 	private String name;
 	private String origin;

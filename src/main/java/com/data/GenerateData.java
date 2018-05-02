@@ -1,6 +1,5 @@
 package com.data;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -32,7 +31,7 @@ public class GenerateData {
 		artist3.setMembers(new ArrayList<String>(Arrays.asList("Smith","Leech","Robert","Angelica","Ryan","Stone Cold","Ricky","Adam","Nina")));
 		
 		artist4.setName("The Music Sharks");
-		artist4.setOrigin("Australia");
+		artist4.setOrigin("Russia");
 		artist4.setMembers(new ArrayList<String>(Arrays.asList("Vladimir","Kovensky","Damitri","Vasilli")));
 		
 		artist5.setName("The Band of Boys");
@@ -42,6 +41,13 @@ public class GenerateData {
 		artist6.setName("Arijeet Singh");
 		artist6.setOrigin("India");
 		artist6.setMembers(new ArrayList<String>(Arrays.asList("Arijeet Singh")));
+		
+		artists.add(artist1);
+		artists.add(artist2);
+		artists.add(artist3);
+		artists.add(artist4);
+		artists.add(artist5);
+		artists.add(artist6);
 		
 		return artists;
 	}
